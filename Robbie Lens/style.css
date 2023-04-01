@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    font-size: 1em;
+    color: white;
+}
+
+main{
+    background-color: #1F2039;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+textarea{
+    width: 100%;
+    color: black;
+    resize: none;
+}
+
+input{
+    color: black;
+}
+
+h1{
+    font-family: Montserrat;
+    font-size: 3.5em;
+    color: #A5B4FC;
+    padding-bottom: 110px;
+    text-align: left;
+}
+
+h2{
+    font-family: 'Montserrat';
+    font-size: 2.1em;
+    text-align: center;   
+    color: #1F2039;
+}
+
+
+h3{
+    padding-bottom: 30px;
+}
+
+p{
+    padding-bottom: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+label{
+    display: block;
+}
+
+.btn--centered{
+    margin: auto auto auto auto;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 276px;
+    height: 63px;
+    background: linear-gradient(180deg, #8E86B5 0%, #ACAEED 100%);
+    border-radius: 50px;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background: linear-gradient(180deg, #696484 0%, #8788BA 100%);
+}
+
+.ctn-header{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+
+.ctn-header__logo{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 49px;
+    
+}
+
+
+.ctn-navbar{
+    display: flex;
+}
+.ctn-navbar__list{
+    list-style: none;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.ctn-navbar__list__elt{
+    font-size: 1.1em;
+    text-decoration: none;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+
+.ctn-navbar__list__elt a{
+    text-decoration: none;
+}
+
+.ctn-navbar__list__elt a:visited{
+    color: black;
+}
+
+
+
+.photos{
+    height: 600px;
+}
+.ctn-photos{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    width: 70%;
+    position: relative;
+    z-index: 1;
+
+}
+
+.ctn-photos__fond{
+    background-color: #2C2E51;
+    width: 615px;
+    height: 413px;
+    position: relative;
+    left: 1070px;
+    bottom: 350px;
+    z-index: 0;
+}
+
+.ctn-infos{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 110px;
+    border-right: solid #A5B4FC;
+    border-bottom: solid #A5B4FC;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+}
+
+.ctn-infos__txt{
+    width: 515px;
+    margin: auto;
+}
+
+.ctn-infos__ulist{
+    padding-left: 30px;
+    margin-bottom: 80px;
+}
+
+.ctn-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.ctn-footer__logo{
+    margin-left: 49px;
+}
+
+.ctn-footer__ctn-sn{
+    display: flex;
+    align-items: center;
+    margin-right: 80px;
+}
+
+.ctn-footer__ctn__sn__logo{
+    margin-left: 30px;
+}
+
+.pres{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.ctn-pres{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-items: left;
+    min-width: 400px;
+}
+
+.ctn-pres__titre1{
+    margin-bottom: 18px;
+    padding-bottom: 0px;
+}
+
+.last-project{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 79px;
+}
+
+.ctn-last-proj-pictures{
+    display: grid;
+    margin: 66px auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 16px;
+}
+
+
+.your-project__titre2{
+    color: #A5B4FC;
+    font-family: 'Montserrat';
+    font-size: 2.1em;
+    text-align: center; 
+    margin-bottom: 87px;  
+}
+
+.your-project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 65px;
+    padding-bottom: 85px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 400px;
+    width: 525px;
+}
+
+.form__name-mail{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.form__message{
+    margin-top: 40px;
+    width: 100%;
+    margin-bottom: 45px;
+}
+
+textarea{
+    width: 100%;
+}
